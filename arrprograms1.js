@@ -5,7 +5,7 @@ for(let i=0;i<=arr1.length;i+=2){
     newarr.push(newarr[i]);
 }
 console.log(newarr);
-linear search
+//linear search
 arr2=[1,2,3,45,56,7,89]
  let x=2;
 let y=10;
@@ -19,7 +19,7 @@ for( let i=0;i<=arr2.length;i++){
 
 }
 
-using function
+//using function
 let arr=[1,2,3,4,5]
 let x=2;
 let
@@ -57,7 +57,7 @@ function largest(arr3) {
 let arr3 = [10, 20, 4, 556, 4891, 1, 12, 46];
 largest(arr3);
 
-find the second largest
+//find the second largest
 let arr=[12,35,1,10,34];
 let arr2=arr.sort();
 console.log(arr2[3]) 

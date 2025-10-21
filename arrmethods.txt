@@ -1,0 +1,12 @@
+.length
+ .toString
+ .at
+.pop//pop can omit
+.push
+unshift
+shift
+delete()// the delete the value but not the place
+slice
+splice
+toSpliced
+copyWithin

@@ -1,0 +1,15 @@
+string methods
+.length()
+concat()-to merge two or more string
+charCodeAt()
+codePointerAt()
+atob()
+at()
+slice()
+substring()
+toUppercase()
+toLowercase()
+trim(),trimStart(),trimEnd()
+repeat()
+replace()
+replaceAll()
