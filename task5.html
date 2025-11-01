@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page designing</title>
+    <style>
+        body{
+            background-image: url(https://static.vecteezy.com/system/resources/previews/001/962/052/non_2x/dark-red-blurred-background-vector.jpg);
+            background-size: cover;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #design{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+           
+        }
+        #heading{
+           color: azure; 
+           font-size: 24px;
+           font-weight: bold;
+        }
+        .navigation ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            
+            gap: 20px;
+
+        }
+        .navigation ul li a,
+    .navigation ul li a:link,
+    .navigation ul li a:visited,
+    .navigation ul li a:active {
+      color: white !important;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .navigation ul li a:hover {
+      color: aqua !important;
+    }
+    .center-text{
+        text-align: center;
+        font-weight: 500;
+        color: rgb(232, 243, 243);
+        font-size: 30px;
+        margin-top: 200px;
+
+    }
+    .sub-text{
+        text-align: center;
+        color: white;
+        font-size: 15px;
+        margin-top: 20px;
+
+
+    }
+    .btn-container{
+        text-align: center;
+        margin-top: 30px;
+
+    }
+    .main-btn{background-color: aqua;
+        border: none;
+        padding: 12px 25px;
+        border-radius: 8px;
+        font-size: 15px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 0.3;
+        color: rgb(164, 166, 161);
+
+    }
+    .main-btn:hover{
+        background-color: rgb(0, 200, 255);
+        transform: scale(1.05);
+        color: azure;
+    }
+    hr{
+        width: 100px;
+        margin: 30px auto;
+        color: aqua;
+        border: 2px solid aqua;
+        border-radius: 5px;
+    }
+        
+        
+    </style>
+</head>
+<body>
+    <div id="design">
+        <div id="heading">Start Bootstrap</div>
+        <nav class="navigation">
+            <ul>
+                <li ><a href="#">About </a></li>
+                <li><a href="#">Service </a></li>
+                <li><a href="#">protfolio </a></li>
+                <li ><a href="#">Contact </a></li>
+
+            </ul>
+        </nav>
+
+    </div>
+
+    <p class="center-text"> <b>
+        This is your Favourite Bootstrap <br>
+        design That you have created  Show your design Agan
+    </b>
+</p>
+<hr>
+<p class="sub-text">It is a long established fact that a reader will be distracted by the readable content of a page  <br> looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal </p>
+
+   <div class="btn-container">
+    <button  class="main-btn"> Click!</button>
+   </div>
+</body>
+</html>
